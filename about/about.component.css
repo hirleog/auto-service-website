@@ -1,0 +1,8 @@
+#about {
+  display: flex;
+}
+
+.left-content {
+  padding-right: 60px;
+
+}
