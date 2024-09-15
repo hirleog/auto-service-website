@@ -1,20 +1,16 @@
 #services {
   display: flex;
-  justify-content: start;
-
-}
-.content {
-  position: relative;
-  color: var(--light);
-  text-align: center;
-  /* padding-top: 43vh; */
-  color: wheat;
-  text-align: start;
+  justify-content: space-between;
 }
 
-.card {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    background: linear-gradient(90deg, var(--black-color) .34%, rgba(0, 0, 0, 0) 91.06%);
+#cards .card-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: -4em;
+}
+
+@media screen and (max-width: 768px) {
+  #services {
+    flex-direction: column;
+  }
 }

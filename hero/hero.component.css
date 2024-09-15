@@ -29,6 +29,18 @@
   position: absolute;
 }
 
+.video-background img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Faz com que o vídeo preencha o container sem distorção */
+  z-index: -1;
+  /* Coloca o vídeo atrás do conteúdo */
+  position: absolute;
+}
+
 /* Estilo da seção de vídeo */
 .video-background {
   /* position: relative; */
